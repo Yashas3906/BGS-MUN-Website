@@ -1,0 +1,25 @@
+{
+  "name": "bgs-mun",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-Par/BGS-MUN-Website.git"
+  },
+  "author": "Siddharth Parmar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S-Par/BGS-MUN-Website/issues"
+  },
+  "homepage": "https://github.com/S-Par/BGS-MUN-Website#readme"
+}
