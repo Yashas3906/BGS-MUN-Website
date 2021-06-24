@@ -4,6 +4,8 @@
 # compiled output
 /dist
 /tmp
+
+# uncompiled css file
 /assets/css/styles.css
 
 # dependencies
