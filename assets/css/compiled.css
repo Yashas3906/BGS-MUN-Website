@@ -17740,6 +17740,26 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-press-backdrop {
+  background-image: url('https://cdn.pixabay.com/photo/2016/01/28/14/36/press-conference-1166343_1280.jpg');
+}
+
+.bg-orientation-backdrop {
+  background-image: url('https://cdn.pixabay.com/photo/2016/08/16/09/53/international-conference-1597531_1280.jpg');
+}
+
+.bg-disec-backdrop {
+  background-image: url('https://images.unsplash.com/photo-1525711857929-4272fb4a040f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+}
+
+.bg-odc-backdrop {
+  background-image: url('https://images.unsplash.com/photo-1620065692460-d8e110a47ffb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+}
+
+.bg-sochum-backdrop {
+  background-image: url('https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc3RydWN0aW9uJTIwd29ya2VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -48975,6 +48995,26 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-press-backdrop {
+    background-image: url('https://cdn.pixabay.com/photo/2016/01/28/14/36/press-conference-1166343_1280.jpg');
+  }
+
+  .sm\:bg-orientation-backdrop {
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/16/09/53/international-conference-1597531_1280.jpg');
+  }
+
+  .sm\:bg-disec-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1525711857929-4272fb4a040f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+  }
+
+  .sm\:bg-odc-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1620065692460-d8e110a47ffb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+  }
+
+  .sm\:bg-sochum-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc3RydWN0aW9uJTIwd29ya2VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -80136,6 +80176,26 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-press-backdrop {
+    background-image: url('https://cdn.pixabay.com/photo/2016/01/28/14/36/press-conference-1166343_1280.jpg');
+  }
+
+  .md\:bg-orientation-backdrop {
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/16/09/53/international-conference-1597531_1280.jpg');
+  }
+
+  .md\:bg-disec-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1525711857929-4272fb4a040f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+  }
+
+  .md\:bg-odc-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1620065692460-d8e110a47ffb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+  }
+
+  .md\:bg-sochum-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc3RydWN0aW9uJTIwd29ya2VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60');
   }
 
   .md\:from-transparent {
@@ -111301,6 +111361,26 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-press-backdrop {
+    background-image: url('https://cdn.pixabay.com/photo/2016/01/28/14/36/press-conference-1166343_1280.jpg');
+  }
+
+  .lg\:bg-orientation-backdrop {
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/16/09/53/international-conference-1597531_1280.jpg');
+  }
+
+  .lg\:bg-disec-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1525711857929-4272fb4a040f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+  }
+
+  .lg\:bg-odc-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1620065692460-d8e110a47ffb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+  }
+
+  .lg\:bg-sochum-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc3RydWN0aW9uJTIwd29ya2VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -142464,6 +142544,26 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-press-backdrop {
+    background-image: url('https://cdn.pixabay.com/photo/2016/01/28/14/36/press-conference-1166343_1280.jpg');
+  }
+
+  .xl\:bg-orientation-backdrop {
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/16/09/53/international-conference-1597531_1280.jpg');
+  }
+
+  .xl\:bg-disec-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1525711857929-4272fb4a040f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+  }
+
+  .xl\:bg-odc-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1620065692460-d8e110a47ffb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+  }
+
+  .xl\:bg-sochum-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc3RydWN0aW9uJTIwd29ya2VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -173625,6 +173725,26 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-press-backdrop {
+    background-image: url('https://cdn.pixabay.com/photo/2016/01/28/14/36/press-conference-1166343_1280.jpg');
+  }
+
+  .\32xl\:bg-orientation-backdrop {
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/16/09/53/international-conference-1597531_1280.jpg');
+  }
+
+  .\32xl\:bg-disec-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1525711857929-4272fb4a040f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80');
+  }
+
+  .\32xl\:bg-odc-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1620065692460-d8e110a47ffb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+  }
+
+  .\32xl\:bg-sochum-backdrop {
+    background-image: url('https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc3RydWN0aW9uJTIwd29ya2VyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60');
   }
 
   .\32xl\:from-transparent {
