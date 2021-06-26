@@ -14,31 +14,14 @@
 
 <body id="page-top" class="m-0">
     <!-- Navbar -->
-    <!--<header x-data="{ mobileMenuOpen : false }" class="flex flex-wrap flex-row justify-between md:items-center md:space-x-4 font-mono bg-green-100 py-6 px-6 relative">
-        <a href="#" class="block">
-          <span class="text-gray-700 font-sans font-semibold text-2xl">BGS MUN</span>
-        </a>
-        <button @click="mobileMenuOpen = !mobileMenuOpen" class="inline-block md:hidden w-8 h-8 rounded-full border-0 p-0 bg-transparent text-gray-700">
-            <i class="fas fa-bars"></i>
-        </button>
-        <nav class="absolute md:relative top-16 left-0 md:top-0 z-20 md:flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-green-100 shadow-md rounded-lg md:rounded-none md:shadow-none md:bg-transparent p-6 pt-0 md:p-0"
-        :class="{ 'flex' : mobileMenuOpen , 'hidden' : !mobileMenuOpen}"  @click.away="mobileMenuOpen = false">
-          <a href="#" class="block py-1 text-gray-700 hover:text-indigo-600">Home</a>
-          <a href="#" class="block py-1 text-gray-700 hover:text-indigo-600">About us</a>
-          <a href="#" class="block py-1 text-gray-700 hover:text-indigo-600">Services</a>
-          <a href="#" class="block py-1 text-gray-700 hover:text-indigo-600">Blog</a>
-          <a href="#" class="block py-1 text-gray-700 hover:text-indigo-600">Contact</a>
-        </nav>
-    </header>-->
     <nav class="absolute w-full top-0 z-10 bg-gray-800 bg-opacity-40">
         <div class="max-w-5xl mx-auto px-4">
           <div class="flex items-center justify-between h-16">
             <span class="text-2xl text-gray-50 font-semibold">BGS MUN</span>
             <div class="flex space-x-4 text-gray-900">
-              <a href="#" class="text-gray-100 hover:text-green-300">Dashboard</a>
               <a href="#" class="text-gray-100 hover:text-green-300">About</a>
-              <a href="#" class="text-gray-100 hover:text-green-300">Projects</a>
-              <a href="#" class="text-gray-100 hover:text-green-300">Contact</a>
+              <a href="#" class="text-gray-100 hover:text-green-300">Schedule</a>
+              <a href="#" class="text-gray-100 hover:text-green-300">Resources</a>
             </div>
           </div>
         </div>
@@ -49,7 +32,7 @@
         <div class="w-full h-screen bg-opacity-50 bg-black flex justify-center items-center relative">
             <div class="mx-4 text-center text-white">
                 <h1 class="font-normal font-serif text-6xl mb-4">BGS Model United Nations</h1>
-                <h2 class="font-bold text-3xl mb-12">July something to something</h2>
+                <h2 class=" font-mono text-2xl mb-12">July 24 and 25</h2>
             </div>
         </div>
     </section>
@@ -126,23 +109,16 @@
     </section>
 
     <!-- Schedule -->
-    <!--
-        8:30am to 9:00am - opening ceremony
-(ii) 9:00am to 10:30am- session 1
-(iii) 10:30am to 10:55am - short break
-(iv) 11:00am to 1:30 - session 2
-(v) 1:30 pm to 2:00pm - lunch break
-(vi) 2 :00pm to 5:00pm
-    -->
-    <section class="bg-gray-100">
+    <section class="bg-gray-100 min-h-screen min-w-screen">
         <div class="block w-full pt-10 mb-5">
-            <h2 class="text-3xl md:text-4xl leading-normal md:leading-relaxed font-bold text-center">Schedule</h2>
+            <p class="mx-4 text-green-700 uppercase tracking-loose text-center font-mono">Timetable</p>
+            <p class="mx-4 text-3xl md:text-4xl leading-normal md:leading-relaxed text-center mb-2">Schedule of BGS MUN'21</p>
         </div>
         <div class="flex flex-col md:flex-row justify-center items-center pt-0 pb-10 md:pb-24">
             <div class="bg-white rounded-lg w-2/3 m-4 lg:w-1/2 xl:w-1/3 p-4 shadow-md">
               <div>
                 <span class="text-gray-900 relative inline-block date uppercase font-medium tracking-widest">Day 1</span>
-                <div class="flex mb-2">
+                <div class="flex my-2">
                   <div class="w-2/12">
                     <span class="text-sm text-gray-600 block">8:30am</span>
                     <span class="text-sm text-gray-600 block">9:00am</span>
@@ -232,29 +208,29 @@
             <div class="bg-white rounded-lg w-2/3 m-4 lg:w-1/2 xl:w-1/3 p-4 shadow-md">
                 <div>
                     <span class="text-gray-900 relative inline-block date uppercase font-medium tracking-widest">Day 2</span>
-                    <div class="flex mb-2">
-                    <div class="w-2/12">
-                        <span class="text-sm text-gray-600 block">8:30am</span>
-                        <span class="text-sm text-gray-600 block">10:00am</span>
-                    </div>
-                    <div class="w-1/12">
-                        <span class="bg-red-400 h-2 w-2 rounded-full block mt-2"></span>
-                    </div>
-                    <div class="w-9/12">
-                        <span class="text-sm font-semibold block">Session 4</span>
-                    </div>
+                    <div class="flex my-2">
+                        <div class="w-2/12">
+                            <span class="text-sm text-gray-600 block">8:30am</span>
+                            <span class="text-sm text-gray-600 block">10:00am</span>
+                        </div>
+                        <div class="w-1/12">
+                            <span class="bg-red-400 h-2 w-2 rounded-full block mt-2"></span>
+                        </div>
+                        <div class="w-9/12">
+                            <span class="text-sm font-semibold block">Session 4</span>
+                        </div>
                     </div>
                     <div class="flex mb-4">
-                    <div class="w-2/12">
-                        <span class="text-sm text-gray-600 block">10:00am</span>
-                        <span class="text-sm text-gray-600 block">10:30am</span>
-                    </div>
-                    <div class="w-1/12">
-                        <span class="bg-indigo-600 h-2 w-2 rounded-full block mt-2"></span>
-                    </div>
-                    <div class="w-9/12">
-                        <span class="text-sm font-semibold block">Break</span>
-                    </div>
+                        <div class="w-2/12">
+                            <span class="text-sm text-gray-600 block">10:00am</span>
+                            <span class="text-sm text-gray-600 block">10:30am</span>
+                        </div>
+                        <div class="w-1/12">
+                            <span class="bg-indigo-600 h-2 w-2 rounded-full block mt-2"></span>
+                        </div>
+                        <div class="w-9/12">
+                            <span class="text-sm font-semibold block">Break</span>
+                        </div>
                     </div>
                     <div class="flex mb-4">
                     <div class="w-2/12">
@@ -320,6 +296,89 @@
             </div>
         </div>
     </section>
+
+    <!-- Committees -->
+    <section class="bg-white my-2 min-h-screen w-full">
+        <div class="block w-full pt-10 mb-5">
+            <p class="mx-4 text-3xl md:text-4xl leading-normal md:leading-relaxed text-center  font-semibold mb-2">Resources</p>
+        </div>
+        <div class="flex items-center justify-center">
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+                <!-- Orientation card -->
+                <div class="relative bg-orientation-backdrop bg-no-repeat bg-center bg-cover rounded-3xl h-64 w-64 my-4 shadow-xl transform transition duration-500 hover:scale-110">
+                    <a href="https://drive.google.com/drive/folders/1Z8KYYavOID0ELHgQg9v1L_2lj8baGj9m?usp=sharing" target="_blank">
+                        <div class="flex flex-col bg-gray-800 bg-opacity-50 md:bg-opacity-30 hover:bg-opacity-70 w-full h-full py-6 px-6 rounded-3xl text-white">
+                            <div class=" text-white text-xs font-mono items-center absolute rounded-full py-4 px-4 shadow-xl bg-red-500 -right-2 -top-6">
+                                Start here
+                            </div>
+                            <div class="my-auto">
+                                <p class="text-3xl text-center font-semibold my-2">Orientation</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- DISEC card -->
+                <div class="relative bg-disec-backdrop bg-no-repeat bg-center bg-cover rounded-3xl h-64 w-64 my-4 shadow-xl transform transition duration-500 hover:scale-110">
+                    <a href="https://drive.google.com/drive/folders/1-TD0jxvut_rviVHgC3vM5EyJmYoS86rI?usp=sharing" target="_blank">
+                        <div class="flex flex-col bg-gray-800 bg-opacity-50 md:bg-opacity-30 hover:bg-opacity-70 w-full h-full py-6 px-6 rounded-3xl text-white group">
+                            <div class="my-auto">
+                                <p class="text-3xl text-center font-semibold my-2">DISEC</p>
+                                <p class="md:opacity-0 group-hover:opacity-100 text-gray-300 text-center text-mono">Agenda: Discussing rising tensions in the Middle East</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- IPC card -->
+                <div class="relative bg-press-backdrop bg-no-repeat bg-center bg-cover rounded-3xl h-64 w-64 my-4 shadow-xl transform transition duration-500 hover:scale-110">
+                    <a href="https://drive.google.com/drive/folders/16uHU-aHh59LIt6eNR_eCGbC0IsAXLPja?usp=sharing" target="_blank">
+                        <div class="flex flex-col bg-gray-800 bg-opacity-50 md:bg-opacity-30 hover:bg-opacity-70 w-full h-full py-6 px-6 rounded-3xl text-white">
+                            <div class="my-auto">
+                                <p class="text-3xl text-center font-semibold my-2">IPC</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- SOCHUM card -->
+                <div class="relative bg-sochum-backdrop bg-no-repeat bg-center bg-cover rounded-3xl h-64 w-64 my-4 shadow-xl transform transition duration-500 hover:scale-110">
+                    <a href="https://drive.google.com/drive/folders/1g6jTTlJiDphg2r6YT-TqyhOECcpdcU6i?usp=sharing" target="_blank">
+                        <div class="flex flex-col bg-gray-800 bg-opacity-50 md:bg-opacity-30 hover:bg-opacity-70 w-full h-full py-6 px-6 rounded-3xl text-white group">
+                            <div class="my-auto">
+                                <p class="text-3xl text-center font-semibold my-2">SOCHUM</p>
+                                <p class="md:opacity-0 group-hover:opacity-100 text-sm text-gray-300 text-center text-mono">Agenda: Combatting poor labour conditions with special reference to SE Asia</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- UN ODC card -->
+                <div class="relative bg-odc-backdrop bg-no-repeat bg-center bg-cover rounded-3xl h-64 w-64 my-4 shadow-xl transform transition duration-500 hover:scale-110">
+                    <a href="https://drive.google.com/drive/folders/1klE-q4qxAPiQxP23_DBxLYXshNqCvb8G?usp=sharing" target="_blank">
+                        <div class="flex flex-col bg-gray-800 bg-opacity-50 md:bg-opacity-30 hover:bg-opacity-70 w-full h-full py-6 px-6 rounded-3xl text-white group">
+                            <div class="my-auto">
+                                <p class="text-3xl text-center font-semibold my-2">UN ODC</p>
+                                <p class="md:opacity-0 group-hover:opacity-100 text-gray-300 text-center text-mono">Agenda: Combatting drug trafficking in Latin America</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Misc. card -->
+                <div class="relative bg-misc-backdrop bg-no-repeat bg-center bg-cover rounded-3xl h-64 w-64 my-4 shadow-xl transform transition duration-500 hover:scale-110">
+                    <a href="https://drive.google.com/drive/folders/1ojjWt-UyF4TmhCmq4xNfMKwWlyYStmzs?usp=sharing" target="_blank">
+                        <div class="flex flex-col bg-gray-800 bg-opacity-50 md:bg-opacity-30 hover:bg-opacity-70 w-full h-full py-6 px-6 rounded-3xl text-white">
+                            <div class="my-auto">
+                                <p class="text-3xl text-center font-semibold my-2">Other Resources</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
 </body>
 
 </html>
